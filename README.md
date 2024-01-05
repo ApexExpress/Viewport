@@ -29,3 +29,33 @@ Each test case is a test for patching issues.
 npm project build
 npm install build project
 npm install command toolset
+
+```
+@BEGIN SYS.caller-project
+import system;
+return 0;
+return 1;
+-- KEY BLOCK --
+import system from os1;
+use strict;
+use warnings;
+qw('readonly DATA')
+-- INNER MESSAGE --
+<!doctype html>
+<pre>
+<code>
+abcdefghijklmnopqrstuvwxyz
+acegikmoqsuwyzxvtrpnljhfdb
+qazwsxedcrfvtgbyhnujmikolp
+qwertyuiopasdfghjklzxcvbnm
+</code>
+</pre>
+-- END INNER MESSAGE --
+-- BLOCK END --
+## Networker
+// add additional DATA here.
+@END
+
+
+
+```
