@@ -1,7 +1,8 @@
 ## Welcome Readers
 Thanks for taking the time to read my project I am building for fun.
 I cant setup sponsorship at this time.
-
+## script for details
+```bash
 ## TABLE MENU
  @1 [DATA]
   + preservation of DATA
@@ -31,6 +32,8 @@ npm project build
 npm install build project
 npm install command toolset
 
+
+```
 ```
 @BEGIN SYS.caller-project
 import system;
