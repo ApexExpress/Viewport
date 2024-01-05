@@ -3,16 +3,17 @@ Thanks for taking the time to read my project I am building for fun.
 I cant setup sponsorship at this time.
 
 ## TABLE MENU
-- @1[DATA]
+ @1 [DATA]
   + preservation of DATA
-- @2[META]
+ @2 [META]
   + preservation of META TAGS <pre> <code> import system::model.pm
-- @3[BUILD]
+ @3 [BUILD]
   + application build
   + other details included
   + etc.
-- @4[UPDATE]
+ @4 [UPDATE]
   + Any and all fixes related to the proejct
+
     A.) test make a file
     B.) test via command line tools
     
