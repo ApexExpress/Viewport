@@ -6,7 +6,7 @@ I cant setup sponsorship at this time.
 - @1[DATA]
   + preservation of DATA
 - @2[META]
-  + preservation of META TAGS <pre> <code> systems
+  + preservation of META TAGS <pre> <code> import system::model.pm
 - @3[BUILD]
   + application build
   + other details included
