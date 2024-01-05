@@ -72,7 +72,42 @@ qwertyuiopasdfghjklzxcvbnm
 -- BLOCK END --
 ## Networker
 // add additional DATA here.
-? 
+?
+from tkinter import *
+from easygui import fileopenbox
+
+root = Tk()
+root.title("Word Counter")
+root.geometry("500x500")
+
+app = Frame(root)
+app.grid()
+button1 = Button(app, text = "Browse for a file")
+button1.grid()
+
+button2 = Button(app)
+button2.grid()
+button2.configure(text ="Count the file")
+
+button3 = Button(app)
+button3.grid()
+button3["text"] = "Exit"
+
+root.mainloop()
+
+def word_count(filename):
+    filename = fileopenbox()
+    if not filename.endswith(('.txt', '.py', '.java')):
+        print('Are you trying to annoy me? How about giving me a TEXT or SOURCE CODE file, genius?')
+        return
+
+    with open(filename) as f:
+        n_lines = 0
+        n_words = 0
+        for line in f:
+            n_lines += 1
+            n_words += len(line.split())
+    print('Your file has {} lines, and {} words'.format(n_lines, n_words))
 @END
 
 ```
