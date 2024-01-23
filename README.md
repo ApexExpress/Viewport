@@ -4,8 +4,6 @@ Thanks for taking the time to read my project I am building for fun.
 
 ## Project workspace code src
 
-```rustc
-
 ## TABLE MENU FOR OPTIONS
 
 * PREFIX.handler
@@ -24,22 +22,23 @@ topic: MISSION STATEMENT
 
 import from station @2 [META]
 
-print str "preservation of META TAGS" "<pre>" "<code>" "import link command" 
+print str "preservation of META TAGS" + "<pre>" + "<code>" + "import link command" 
  
 FOR case: while true command
 
-  'use system::model.pm'
-  'use system::patch.pm'
-  'use system::connect.pm'
-  'use system::network.pm'
-  'use system::relay.pm'
-  'use system::configuration.pm'
-  'use system::settings.pm'
+  'use system::model.pm',
+  'use system::patch.pm',
+  'use system::connect.pm',
+  'use system::network.pm',
+  'use system::relay.pm',
+  'use system::configuration.pm',
+  'use system::settings.pm';
 
 import service.ext* @3 [BUILD]
   + DAPP.ext*
   + ROUTER.services*
   + **connection.feed**
+  + return test module/display-unit
  export() @4 [UPDATE]
   + Any and all fixes related to the project
 
@@ -52,7 +51,7 @@ import service.ext* @3 [BUILD]
 To design an application that can serve as a foundation.
 Each test case is a test for patching issues.
 
-command[ ./b./t./c./command. ]
+command[ ./f./t./l./command. ]
 
 + A.) test case
 + B.) retry what doesnt work
@@ -129,6 +128,7 @@ qwertyuiopasdfghjklzxcvbnm
             n_lines += 1
             n_words += len(line.split())
     print('File Endings .... ')
+    
 @END
 ')
         return case
@@ -138,4 +138,4 @@ qwertyuiopasdfghjklzxcvbnm
 ?
 caller feedback.requested()_
 export DATA
-```
+END;
