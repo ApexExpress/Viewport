@@ -92,6 +92,13 @@ button2.grid()
 button2.configure(text ="Count the file")
 
 button3 = Button(app)
+    with open(filename) as f:
+        str_lines = 0
+        str_words = 0
+        for line in f:
+            n_lines += 1
+            n_words += len(line.split())
+    print('File Endings .... ')
 button3.grid()
 button3["text"] = "Exit"
 
@@ -121,13 +128,6 @@ qwertyuiopasdfghjklzxcvbnm
 -- END INNER MESSAGE --
 -- BLOCK END --
 
-    with open(filename) as f:
-        str_lines = 0
-        str_words = 0
-        for line in f:
-            n_lines += 1
-            n_words += len(line.split())
-    print('File Endings .... ')
     
 @END
 ')
