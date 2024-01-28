@@ -52,7 +52,7 @@ import service.ext* @3 [BUILD]
 To design an application that can serve as a foundation.
 Each test case is a test for patching issues.
 
-command[ ./f./t./l./command. ]
+command[ ./f./t./l./command. ] @FTL "brands"
 
 + A.) test case
 + B.) retry what doesnt work
