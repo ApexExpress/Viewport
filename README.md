@@ -1,142 +1,19 @@
-```
-## Welcome Readers
+A software domain developer is a professional who specializes in creating software solutions tailored to specific industries or domains. Instead of focusing on generic software applications, they concentrate on understanding the unique requirements, challenges, and regulations of a particular field. This could include domains such as finance, healthcare, e-commerce, automotive, aerospace, and more.
 
-Thanks for taking the time to read my project I am building for fun.
+Software domain developers typically possess deep knowledge and expertise in both software development practices and the domain they are working in. They collaborate closely with domain experts, stakeholders, and end-users to gather requirements, define features, and ensure that the software meets the needs of the industry it serves.
 
-## Project workspace code src
+Their responsibilities may include:
 
-## TABLE MENU FOR OPTIONS
+Domain Knowledge Acquisition: Continuously learning about the specific domain, including its terminology, processes, regulations, and best practices.
 
-* PREFIX.handler
-* MODEL.serial
-* VERSION.controller
-* STATUS.callback
-* REMOTE.connection
+Requirement Analysis: Working closely with stakeholders to gather, analyze, and prioritize requirements specific to the domain.
 
- import service from src/code @1 [DATA]
-  print "preservation of DATA/CODE"
- 
- DATA: RELAY PATCH ROBOTICS RFID LOCKOUT
- META: *source* + *index*
-  msg: networker/handler.pm
-topic: MISSION STATEMENT
+Software Development: Using their expertise in software development, they design, implement, test, and maintain software solutions tailored to the domain's needs.
 
-import from station @2 [META]
+Integration and Customization: Integrating software solutions with existing systems within the domain and customizing them to fit unique requirements.
 
-print str "preservation of META TAGS" + "<pre>" + "<code>" + "import link command" 
- 
-FOR case: while true command
+Compliance and Regulation: Ensuring that the software complies with industry regulations, standards, and best practices.
 
-  'use system::model.pm',
-  'use system::patch.pm',
-  'use system::connect.pm',
-  'use system::network.pm',
-  'use system::relay.pm',
-  'use system::configuration.pm',
-  'use system::settings.pm';
+Collaboration: Working closely with domain experts, stakeholders, project managers, and other members of the development team to ensure the successful delivery of software solutions.
 
-import service.ext* @3 [BUILD]
-  + DAPP.ext*
-  + ROUTER.services*
-  + **connection.feed**
-  + return test module/display-unit
- export() @4 [UPDATE]
-  + Any and all fixes related to the project
-
-    A.) test make a file
-    B.) test via command line tools
-    C.) test case command file operations & permissions
-
-## Project Details
-
-To design an application that can serve as a foundation.
-Each test case is a test for patching issues.
-
-command[ ./f./t./l./command. ] @FTL "brands"
-
-+ A.) test case
-+ B.) retry what doesnt work
-+ C.) doing it right the first time around -- slow down coding
-  
-## Project Specs For Installation
-
-npm project build
-npm install build project
-npm install command toolset
-
-@BEGIN SYS.caller-project
-
-import system;
-return 0;
-return 1;
-
-import system from os1;
-use strict;
-use warnings;
-// Compiler Check
-qw('readonly DATA')
-
-from tkinter import *
-from easygui import fileopenbox
-
-root = Tk()
-root.title("Word Counter")
-root.geometry("500x500")
-
-app = Frame(root)
-app.grid()
-button1 = Button(app, text = "Browse for a file")
-button1.grid()
-
-button2 = Button(app)
-button2.grid()
-button2.configure(text ="Count the file")
-
-button3 = Button(app)
-    with open(filename) as f:
-        str_lines = 0
-        str_words = 0
-        for line in f:
-            n_lines += 1
-            n_words += len(line.split())
-    print('File Endings .... ')
-button3.grid()
-button3["text"] = "Exit"
-
-root.mainloop()
-
-def word_count(filename):
-    filename = fileopenbox()
-    if not filename.endswith(('.txt', '.py', '.java')):
-        print('
-
--- KEY BLOCK --
--- INNER MESSAGE --
-
-<!doctype html>
-
-<pre>
-<code>
-
-abcdefghijklmnopqrstuvwxyz
-acegikmoqsuwyzxvtrpnljhfdb
-
-qazwsxedcrfvtgbyhnujmikolp
-qwertyuiopasdfghjklzxcvbnm
-
-</code>
-</pre>
--- END INNER MESSAGE --
--- BLOCK END --
-
-    
-@END
-')
-        return case
-
-## Networker
-// add additional DATA here.
-?
-caller feedback.requested()_
-export DATA
-END;
+Continuous Improvement: Staying updated on advancements in both software development technologies and the specific domain to incorporate new ideas and improve existing solutions.
